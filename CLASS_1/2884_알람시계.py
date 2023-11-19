@@ -1,4 +1,4 @@
-# H, M = map(int, input().split())
+# H, M = map(int, input().split()) 
 # if H == 0 and M < 45:
 #     H = 23
 #     M = 60 - abs(M - 45)

@@ -9,7 +9,7 @@ elif (V - B) % (A - B) != 0:
     day = (V - B) // (A - B) + 1
 print(day)
 
-# 아래는 시간 초과
+# 시간 초과
 # day = 0
 # while True:
 #     day += 1

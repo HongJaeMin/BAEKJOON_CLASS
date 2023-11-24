@@ -8,14 +8,10 @@ while True:
         if len(N_list) % 2 == 1:
             left_N = N_list[:cond]
             right_N = N_list[cond+1:][::-1]
-            if left_N == right_N:
-                print('yes')
-            else:
-                print('no')
         elif len(N_list) % 2 == 0:
             left_N = N_list[:cond]
             right_N = N_list[cond:][::-1]
-            if left_N == right_N:
-                print('yes')
-            else:
-                print('no')
+        if left_N == right_N:
+            print('yes')
+        else:
+            print('no')

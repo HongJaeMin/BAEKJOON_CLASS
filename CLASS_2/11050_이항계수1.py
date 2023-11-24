@@ -15,5 +15,4 @@ print(int(z / (x * y)))
 
 # math 모듈
 import math
-
 print(math.comb(N, K))
